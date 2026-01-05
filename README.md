@@ -1,2 +1,5 @@
 # ConvLSTM
 This Github is a compilation of all my current Research on ConvLSTM in Glacier Melting Context
+
+
+I am conducting independent research on predicting the evolution of proglacial lakes in Greenland using a physics-informed ConvLSTM model that integrates satellite imagery with glaciological constraints. Using monthly Sentinel-2–derived lake area data, static terrain features (elevation, slope), and a physics-based summer melt proxy, I built a spatiotemporal deep-learning pipeline to forecast lake expansion under melt conditions. Beyond a standard ConvLSTM, I am extending the model to enforce physical feasibility—such as mass balance consistency and topographic limits—bridging data-driven learning with real glacial processes. I evaluate performance against a baseline ConvLSTM using error metrics and SHAP-based interpretability to identify which physical and spatial features most influence predictions. This project sits at the intersection of machine learning, remote sensing, and climate science, and reflects my interest in using AI not just to predict environmental change, but to do so in a way that respects the physics of the natural systems it models.
